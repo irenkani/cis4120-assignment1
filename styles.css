@@ -131,7 +131,6 @@ body {
     border: none;
     color: white;
     font-size: 16px;
-    cursor: pointer;
 }
 
 .section-row {
@@ -194,7 +193,6 @@ body {
 
 .underline {
     text-decoration: underline;
-    cursor: pointer;
 }
 
 .cart-actions {
@@ -210,7 +208,6 @@ body {
     gap: 5px;
     font-size: 12px;
     font-weight: bold;
-    cursor: pointer;
 }
 
 .checkbox {
@@ -230,7 +227,6 @@ body {
     border: 1px solid #333;
     padding: 4px 8px;
     font-size: 10px;
-    cursor: pointer;
     text-decoration: underline;
 }
 
@@ -281,7 +277,6 @@ body {
     background-color: #D9D9D9;
     font-size: 12px;
     font-weight: bold;
-    cursor: pointer;
     margin-right: 5px;
 }
 
@@ -323,5 +318,4 @@ body {
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
-    cursor: pointer;
 }
