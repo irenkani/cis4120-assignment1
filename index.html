@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" />
+
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+
+        <title>Course Registration</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="header">
+                <img class="back1-image" src="/assets/back1.png" />
+                <h1>COURSE / NUMBER / TITLE</h1>
+                <img class="home-image" src="/assets/home.png" />
+            </header>
+
+            <!-- should this be nav...? -->
+            <nav class="nav-tabs">
+                <button class="tab-btn active">REGISTRATION</button>
+                <button class="tab-btn">PLANNING</button>
+                <button class="tab-btn">COURSE INFORMATION</button>
+            </nav>
+
+            <div class="course-info">
+                <div class="course-details">
+                    <h2>COURSE / NUMBER</h2>
+                    <p class="section-text">SECTION #66, CRN: 9999</p>
+                    <h3>COURSE TITLE</h3>
+                </div>
+                <div class="availability">
+                    <p class="available-text">X AVAILABLE SEATS / X SEATS</p>
+                </div>
+            </div>
+            <section class="sections-panel">
+                <div class="panel-header">
+                    <h3>SECTIONS</h3>
+                    <button class="expand-btn">▲</button>
+                </div>
+                
+                <div class="section-row">
+                    <div class="section-info">
+                        <div class="section-status">
+                            <span class="section-number">SECTION #</span>
+                            <div class="status-badges">
+                                <span class="status-open">OPEN</span>
+                                <span class="status-selected">SELECTED</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="professor-info">
+                        <p><strong>PROFESSOR & TIME</strong></p>
+                        <p class="underline">PENN COURSE REVIEW</p>
+                        <p class="underline">PAST SYLLABI</p>
+                    </div>
+                    <div class="cart-actions">
+                        <div class="cart-one">
+                            <img class="checkbox" src="/assets/checked.png" />
+                            <p class="cart-label">MAIN CART</p>
+                        </div>
+                        <div class="cart-one">
+                            <img class="checkbox" src="/assets/unchecked.png" />
+                            <p class="cart-label">BACKUP CART</p>
+                        </div>
+                        <button class="add-cart-btn">ADD A CART</button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="permission-section">
+                <div class="permission-checkbox">
+                    <img class="checkbox" src="/assets/bluecheck.png" />
+                    <p class="perm-label">REQUEST PERMISSION</p>
+                </div>
+                
+                <div class="permission-form">
+                    <div class="form-field">
+                        <label>Include:</label>
+                    </div>
+                    <div class="form-field">
+                        <label>Name</label>
+                    </div>
+                    <div class="form-field">
+                        <label>Grade / Year / Major</label>
+                    </div>
+                    <div class="form-field">
+                        <label>Reason for request</label>
+                    </div>
+                    <div class="form-field">
+                        <label>Referral (if any)</label>
+                    </div>
+                </div>
+            </div>
+
+            <section class="schedule-panel">
+                <div class="panel-header">
+                    <h3>VIEW CART SCHEDULE</h3>
+                    <button class="expand-btn">▲</button>
+                </div>
+
+                <div class="cart-tabs">
+                    <button class="cart-tab active">MAIN CART</button>
+                    <button class="cart-tab">BACKUP CART</button>
+                </div>
+
+                <div class="schedule-grid">
+                    <img class="calendar" src="/assets/calendar.png"/>
+                </div>
+
+                <div class="submit-status">
+                    <p>NO CONFLICTS, READY TO SUBMIT</p>
+                </div>
+
+                <button class="submit-btn">SUBMIT THIS CART</button>
+            </section>
+        </div>
+    </body>
+</html>

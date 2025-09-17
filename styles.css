@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-style: bold;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    background-color: #9D0000;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+}
+
+.header h1 {
+    font-size: 16px;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.home-image, .back1-image{
+    height: 1em;
+    width: auto;
+}
+
+.nav-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 4em;
+    width: 100%
+}
+
+.tab-btn {
+    border: none;
+    padding: 12px 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 5px 2px;
+    height: 4em;
+}
+
+.tab-btn.active {
+    background-color: #5177B4;
+    color: white;
+}
+
+.course-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.course-details h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.section-text {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.course-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.availability {
+    text-align: center;
+    width: 30%;
+}
+
+.available-text {
+    color: #007213;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sections-panel {
+    margin: 10px 0;
+}
+
+.panel-header {
+    background-color: #5177B4;
+    color: white;
+    padding: 12px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel-header h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.expand-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.section-row {
+    background-color: #D9D9D9;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section-info {
+    flex: 1;
+}
+
+.section-status {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section-number {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.status-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.status-open {
+    background-color: #007213;
+    color: white;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+.status-selected {
+    background-color: #007213;
+    color: white;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+.professor-info {
+    flex: 1;
+    font-size: 12px;
+}
+
+.professor-info p {
+    margin-bottom: 3px;
+}
+
+.underline {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cart-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.cart-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checkbox {
+    height: 1em;
+    width: auto;
+}
+
+.cart-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-cart-btn {
+    background: none;
+    border: 1px solid #333;
+    padding: 4px 8px;
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.permission-section {
+    padding: 15px;
+    background-color: #f9f9f9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.permission-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.permission-form {
+    background-color: #D9D9D9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.form-field {
+    margin-bottom: 8px;
+}
+
+.form-field label {
+    font-size: 12px;
+    color: #898989;
+}
+
+
+.schedule-panel {
+    margin: 10px 0;
+}
+
+.cart-tabs {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.cart-tab {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background-color: #D9D9D9;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.cart-tab.active {
+    background-color: #5177B4;
+    color: white;
+}
+
+.schedule-grid {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.calendar {
+    height: auto;
+    width: 100%;
+}
+
+.submit-status {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.submit-status p {
+    color: #007213;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.submit-btn {
+    width: 90%;
+    margin: 0 auto 20px;
+    display: block;
+    background-color: #153569;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
